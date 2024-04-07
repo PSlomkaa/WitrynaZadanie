@@ -25,7 +25,6 @@ body {
 
 .logo {
     flex-basis: 33%;
-    padding-left: 10px;
     font-size: 40px;
 }
 
@@ -170,12 +169,55 @@ section {
 
 .info-cont {
     display: flex;
+    flex-direction: column;
     justify-content: right;
     padding: 0 100px;
+    text-align: right;
+    font-size: 20px;
 }
 
 .projects-cont {
     display: flex;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+
+
+.project {
+    margin-bottom: 50px;
+}
+
+.project p {
+    font-size: 20px;
+}
+
+.project a {
+    margin: 20px;
+}
+
+.more {
+    text-decoration: none;
+    text-align: right;
+    color: var(--bgc);
+}
+.left {
+    flex-basis: 33%;
+}
+.left img {
+    width: 500px;
+}
+.main {
+    flex-basis: 33%;
+}
+.main img {
+    width: 500px;
+}
+.right {
+    flex-basis: 33%;
+}
+.right img {
+    width: 500px;
 }
 
 section h3 {
@@ -232,9 +274,6 @@ form {
     font-size: 25px;
     padding: 0 100px;
 }
-
-
-
 
 footer {
     background-color: var(--main-color);
