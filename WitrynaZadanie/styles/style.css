@@ -180,12 +180,22 @@ section {
     display: flex;
     justify-content: center;
     flex-basis: 50%;
+    align-items: center;
+}
+
+.project {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-bottom: 50px;
+    height: 700px;
+    padding: 0 20px;
 }
 
 
-
-.project {
-    margin-bottom: 50px;
+.projects-info {
+    padding: 40px 0;
+    font-size: 35px;
 }
 
 .project p {
@@ -221,7 +231,7 @@ section {
 }
 
 section h3 {
-    font-size: 35px;
+    font-size: 50px;
 }
 
 .skills-container {
@@ -231,7 +241,7 @@ section h3 {
 }
 
 .skills-container h3 {
-    font-size: 35px;
+    font-size: 50px;
     padding-left: 100px;
 }
 
@@ -257,7 +267,7 @@ input {
 
 .contact-form h3 {
     text-align: right;
-    font-size: 35px;
+    font-size: 50px;
     padding-right: 100px;
 }
 
@@ -267,6 +277,28 @@ form {
     width: 600px;
     padding: 100px;
     flex-basis: 40%;
+}
+
+.submit-cont {
+    display: flex;
+    justify-content: center;
+}
+
+.submit {
+    width: 50%;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 20px;
+    background-color: #03fc41;
+    border: #000000 2px solid;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.submit:hover {
+    background-color: #fff;
+    color: #000;
+    transition: ease-in-out .5s;
 }
 
 .contact-desc {
