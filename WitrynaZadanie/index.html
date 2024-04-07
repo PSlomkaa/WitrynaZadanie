@@ -8,6 +8,7 @@
     <title>Piotr Słomka | Home page</title>
     <link rel="stylesheet" href="styles/style.css">
     <link rel="shortcut icon" href="img/PS.png" type="image/x-icon">
+    <meta name="description" content="Personal portfolio website with showing my skills nad projects">
 </head>
 <body>
     <div class="container">
@@ -31,7 +32,7 @@
             <h2 class="info">Hi I'm <span class="full-name">Piotr Słomka,</span><div class="type">front-end developer.</div></h2>
             <p class="name">I'm from Gliwce, Poland. My hobby is basketball and coding. I'm a student in ZSTI gliwice. I'm playing in GTK Gliwice bastekball team.</p>
         </div>
-        <div class="img"><img src="img/Untitled design.png" alt="ai image" width="600px" height="600px"></div>
+        <div class="img"><img src="img/Untitled design.png" alt="ai image" class="responsive"></div>
     </main>
     <section>
         <div class="info-cont">
@@ -57,17 +58,35 @@
 
             </div>
         </div>
+    <div class="contact-form">
+        <h3>Contact me</h3>
+        <div class="contact-info">
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name">
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname">
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email">
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10">
+            </textarea>
+        </form>
+        <p class="contact-desc">If you want to report a bug on my site or just send me a message fill the gaps in form.</p>
+        </div>
+    </div>
     <footer>
         <h4 class="copy">&copy; Piotr Słomka</h4>
         <div class="media-container">
+            <div class="media-info">Links to my media: </div>
             <div class="instagram">
-                <img src="img/icons8-instagram-144.png" alt="instagram logo" width="50px">
+                <img src="img/icons8-instagram-144.png" alt="instagram logo" width="50px" height="50px">
             </div>
             <div class="facebook">
-                <img src="img/icons8-facebook-144.png" alt="facebookk logo" width="50px">
+                <img src="img/icons8-facebook-144.png" alt="facebookk logo" width="50px" height="50px">
             </div>
             <div class="youtube">
-                <img src="img/icons8-youtube-144.png" alt="youtube logo" width="50px">
+                <img src="img/icons8-youtube-144.png" alt="youtube logo" width="50px" height="50px">
             </div>
         </div>
     </footer>
