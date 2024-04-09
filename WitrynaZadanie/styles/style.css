@@ -108,7 +108,7 @@ main {
     font-weight: bold;
     font-size: 20px;
     color: var(--sec-text);
-    animation: SlideLeft 1s ease-in 1.5s  both;
+    animation: SlideLeft 1s ease-in 3s  both;
 }
 
 @keyframes typing {
@@ -139,7 +139,7 @@ main {
 }
 
 .bounce-in-right {
-    animation: bounce-in-right 4s ease-in 1;
+    animation: bounce-in-right 3s ease-in 1;
   }
 
 
@@ -176,8 +176,17 @@ main {
         white-space: wrap;
         animation: none;
     }
-    .name {
-        animation: SlideLeft 1s ease-in .5s  both;
+
+}
+
+@media only screen and (max-width: 1650px) {
+    .projects-cont {
+        flex-direction: column;
+    }
+    .info-cont img {
+        display: none;
+        margin: 0%;
+        padding: 0%;
     }
 }
 
@@ -205,12 +214,15 @@ section h3 {
 .info-cont img {
     height: 600px;
     width: 600px;
-    padding-bottom: 100px;
+    padding-bottom: 150px;
+    aspect-ratio: 1.0;
+
 }
 
 .pulse {
     animation: pulse 1s infinite ease-in-out alternate;
   }
+
   @keyframes pulse {
     from { transform: scale(0.9); }
     to { transform: scale(1.1); }
@@ -299,15 +311,100 @@ section h3 {
     font-size: 50px;
 }
 
-.skills-container {
+.skills-info-cont {
     background-color: var(--bgc);
     color: var(--main-color);
-    display: flex;
+    padding: 50px 0;
 }
 
-.skills-container h3 {
+.skills-info {
+    display: flex;
+    align-items: center;
+}
+
+.skill {
+    background-color: var(--bgc);
+    color: var(--main-color);
+}
+
+.h3-cont h3 {
+    text-align: left;
     font-size: 50px;
     padding-left: 100px;
+    background-color: var(--bgc);
+    color: var(--main-color);
+}
+
+.skills-desc {
+    display: flex;
+    font-size: 35px;
+    padding-left: 100px;
+    flex-basis: 50%;
+    padding-right: 100px;
+}
+
+.t-cont {
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
+.t-cont h3 {
+    text-align: center;
+    padding: 0%;
+}
+
+.skills-cont {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin:20px 50px;
+}
+
+.skill-card {
+    margin: 20px;
+    height: 300px;
+    width: 300px;
+    background-color: var(--projects-color);
+    color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+}
+
+.skill-card h4 {
+    font-size: 22px;
+}
+
+.skill-outline {
+    color: #0903bb;
+    -webkit-text-stroke: #0903bb 2px;
+}
+
+.skill-card p {
+    font-size: 20px;
+}
+
+.skill-card:hover {
+    background-color: var(--projects-color);
+    color: var(--main-color);
+    animation: hithere 1s ease-in-out;
+}
+
+@keyframes hithere {
+    30% { transform: scale(1.2); }
+    40%, 60% { transform: rotate(-20deg) scale(1.2); }
+    50% { transform: rotate(20deg) scale(1.2); }
+    70% { transform: rotate(0deg) scale(1.2); }
+    100% { transform: scale(1); }
+}
+
+.s-img-cont img {
+    flex-basis: 50%;
+    height: 500px;
+    width: 600px;
+    aspect-ratio: 1.0;
 }
 
 .contact-form {
