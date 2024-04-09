@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Piotr Słomka">
+    <title>Piotr Słomka | Home page</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link rel="shortcut icon" href="img/PS.png" type="image/x-icon">
+    <meta name="description" content="Personal portfolio website with showing my skills nad projects">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="header-cont">
+            <h1 class="logo">Portfolio</h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="">Home</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="">Skills</a></li>
+                </ul>
+            </nav>
+            <div class="contact-container">
+                <a href="#contact-form" class="contact">Contact</a>
+            </div>
+        </div>
+        </header>
+    <main>
+        <div class="desc">
+            <h2 class="info">Hi I'm <span class="full-name">Piotr Słomka,</span><div class="type">front-end developer.</div></h2>
+            <p class="name">I'm from Gliwce, Poland. My hobby is basketball and coding. I'm a student in ZSTI gliwice. I'm playing in GTK Gliwice bastekball team.</p>
+        </div>
+        <div class="img"><img src="img/Untitled design — kopia.webp" alt="ai image" class="responsive bounce-in-right"></div>
+    </main>
+    <section>
+        <h3>Projects</h3>
+        <div class="info-cont" id="projects">
+            <img src="img/code-6127616_640.png" alt="coding" class="pulse">
+            <p class="projects-info">Here are some of my best or newest <span class="pro"> PROJECTS </span> I made. Some of them are not finished yet.</p>
+        </div>
+        <div class="projects-cont">
+            <div class="project left">
+                <h4>NBA site</h4>
+                <div class="pimg">
+                    <a href=""><img src="img/Zrzut ekranu 2024-04-07 165238.png" alt="nba screen"></a>
+                </div>
+                <p class="nba-desc">Nba site is made in wordpress. It shows some interesting facts and some articles about the players and teams.</p>
+                <a href="" class="more">Read more -></a>
+            </div>
+            <div class="project main">
+                <h4>Photos hub</h4>
+                <div class="pimg">
+                    <a href=""><img src="img/Zrzut ekranu 2024-04-07 153132.png" alt="photos screen"></a>
+                </div>
+                <p class="photos-desc">This is a site made in bootstrap. This project is a school credit</p>
+                <a href="" class="more">Read more -></a>
+            </div>
+            <div class="project right">
+                <h4>Cinema village</h4>
+                <div class="pimg">
+                    <a href=""><img src="img/Zrzut ekranu 2024-04-07 165508.png" alt="cinema screen"></a>
+                </div>
+                <p class="cinema-desc"> It is an online application that allows you to select movies and order tickets, which are stored in a database. </p>
+                <a href="" class="more">Read more -></a>
+            </div>
+        </div>
+    </section>
+    <section class="skill">  
+        <div class="skills-info-cont">
+            <div class="h3-cont">
+                <h3>Skills</h3>
+            </div>
+        <div class="skills-info">
+            <p class="skills-desc">Here are my skills and career. Timeline presents my coding career.</p>
+            <div class="s-img-cont">
+            <img src="img/world-creativity-and-innovation-day.png" alt="skills img">
+        </div>
+        </div>
+        </div>
+        <div class="t-cont">
+            <h3>Technologies</h3>
+        </div>
+        <div class="skills-cont">
+            <div class="skill-card">
+                <h4>HTML 5</h4>
+                <img src="img/html.png" alt="html-logo" width="150px" height="150px">
+                <p class="desc-skill">advanced</p>
+            </div>
+            <div class="skill-card">
+                <h4>CSS</h4>
+                <img src="img/css-3.png" alt="css-logo" width="150px" height="150px">
+                <p class="desc-skill">intermediate</p>
+            </div>
+            <div class="skill-card">
+                <h4>Tailwind CSS</h4>
+                <img src="img/tailwind-css.256x154.png" alt="tcss-logo" width="150px" height="150px">
+                <p class="desc-skill">beginner</p>
+            </div>
+            <div class="skill-card">
+                <h4>Javascript</h4>
+                <img src="img/js.png" alt="js-logo" width="150px" height="150px">
+                <p class="desc-skill">intermediate</p>
+            </div>
+            <div class="skill-card">
+                <h4>PHP</h4>
+                <img src="img/php.png" alt="php-logo" width="150px" height="150px">
+                <p class="desc-skill">intermediate</p>
+            </div>
+        </div>
+
+    </section>
+    <div class="contact-form" id="contact-form">
+        <h3>Contact me</h3>
+        <div class="contact-info">
+        <form action="">
+            <label for="name">Name</label>
+            <input type="text" name="name" id="name" required>
+            <label for="surname">Surname</label>
+            <input type="text" name="surname" id="surname" required>
+            <label for="email">Email</label>
+            <input type="email" name="email" id="email" required>
+            <label for="message">Message</label>
+            <textarea name="message" id="message" cols="30" rows="10" required>
+            </textarea>
+            <div class="submit-cont">
+                <button class="submit" type="submit">Submit</button>
+            </div>
+        </form>
+        <p class="contact-desc">If you want to report a bug on my site or just send me a message fill the gaps in form.</p>
+        </div>
+    </div>
+    <footer>
+        <h4 class="copy">&copy; Piotr Słomka</h4>
+        <div class="media-container">
+            <div class="media-info">Links to my media: </div>
+            <div class="instagram">
+                <img src="img/icons8-instagram-144.png" alt="instagram logo" width="50px" height="50px">
+            </div>
+            <div class="facebook">
+                <img src="img/icons8-facebook-144.png" alt="facebookk logo" width="50px" height="50px">
+            </div>
+            <div class="youtube">
+                <img src="img/icons8-youtube-144.png" alt="youtube logo" width="50px" height="50px">
+            </div>
+        </div>
+    </footer>
+    </div>
+</body>
+</html>
