@@ -14,14 +14,16 @@ body {
     font-family: "Poppins", sans-serif;
     scroll-behavior: smooth;
     background-color: var(--bgc);
+    scroll-behavior: smooth;
 }
 
 .container {
     scroll-behavior: smooth;
+    max-width: 1920px;
 }
 
 .header-cont {
-    margin: 0 50px;
+    margin: 0 40px;
     padding: 20px 50px;
     display: flex;
     flex-direction: row;
@@ -193,6 +195,9 @@ main {
         display: none;
         margin: 0%;
         padding: 0%;
+    }
+    section {
+        padding-right: 20px;
     }
 }
 
@@ -398,6 +403,100 @@ section h3 {
     animation: hithere 1s ease-in-out;
 }
 
+.roadmap {
+    background: var(--bgc);
+    display: flex;
+    justify-content: center;
+}
+
+.map-title {
+    font-size: 50px;
+    text-align: center;
+    color: var(--main-color);
+    padding: 0;
+}
+
+.line-up {
+    background: var(--main-color);
+    border: var(--main-color) solid 3px;
+    border-radius: 10px;
+    width: 10px;
+    margin-left: 100px;
+    height: 100px;
+}
+
+.line-mid {
+    background: var(--main-color);
+    border: var(--main-color) solid 3px;
+    border-radius: 10px;
+    width: 10px;
+    margin-left: 100px;
+    height: 200px;
+}
+
+.line-hor {
+    background: var(--main-color);
+    border: var(--main-color) solid 3px;
+    border-radius: 10px;
+    width: 150px;
+    height: 10px;
+}
+
+.begin {
+    display: flex;
+    align-items: center;
+}
+
+.school {
+    display: flex;
+    align-items: center;
+}
+
+.go {
+    display: flex;
+    align-items: center;
+}
+
+.learn {
+    display: flex;
+    align-items: center;
+}
+
+.begin img {
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.school img {
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.go img {
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.learn img {
+    margin-left: 55px;
+    margin-right: 20px;
+}
+
+.map-header {
+    padding: 0 20px;
+}
+
+.map-cont {
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    margin: auto;
+}
+
+.map-header, .map-desc {
+    color: var(--main-color);
+}
+
 @keyframes hithere {
     30% { transform: scale(1.2); }
     40%, 60% { transform: rotate(-20deg) scale(1.2); }
@@ -515,14 +614,18 @@ h4 {
 .media-container {
     flex-basis: 50%;
     display: flex;
+    flex-direction: column;
     justify-content: right;
-    align-items: center;
-    padding-right: 80px;
+    align-items: flex-end;
     padding-top: 20px;
+    padding-right: 100px;
 }
 
 .instagram, .facebook, .youtube {
     cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .media-info {
