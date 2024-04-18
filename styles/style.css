@@ -78,25 +78,6 @@ li a {
     border-radius: 10px;
 }
 
-.onTop {
-    display: none;
-    position: fixed;
-    bottom: 20px;
-    right: 50px;
-    width: 100px;
-    height: 100px;
-    background: transparent;
-    border: none;
-    cursor: pointer;
-}
-
-.onTop img {
-    margin: 0%;
-    height: 100px;
-    width: 100px;
-    scale: 1.0;
-}
-
 main {
     margin: 0 50px;
     padding: 50px 0;
@@ -112,7 +93,7 @@ main {
 
 .full-name {
     -webkit-text-stroke: #c601b9 2px;
-    color: #fff;
+    color: #c601b9;
 }
 
 .info {
@@ -197,6 +178,10 @@ main {
         flex-basis: 100%;
         white-space: wrap;
         animation: none;
+    }
+    .contact-info {
+        display: flex;
+        flex-direction: column;
     }
 }
 
