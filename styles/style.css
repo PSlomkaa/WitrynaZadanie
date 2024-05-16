@@ -346,6 +346,29 @@ section h3 {
     font-size: 50px;
 }
 
+.table-p {
+    text-align: end;
+    padding: 0px 50px;
+}
+
+table {
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.tab-main {
+    display: none;
+}
+
+td, tr, th {
+    text-align: center;
+    padding: 10px 50px;
+    border: var(--bgc) 2px solid;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+
 .skills-info-cont {
     background-color: var(--bgc);
     color: var(--main-color);
@@ -669,6 +692,17 @@ h4 {
         padding: 10px;
         display: flex;
         flex-direction: row;
+    }
+    th {
+        display: none;
+    }
+    .tab-up {
+        padding: 5px;
+    }
+    .tab-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mobile-menu {
         right:60%;
@@ -1031,6 +1065,17 @@ h4 {
         justify-content: space-around;
         flex-direction: row;
         margin-bottom: 0;
+    }
+    th {
+        display: none;
+    }
+    .tab-up {
+        padding: 5px;
+    }
+    .tab-main {
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
     .mobile-menu {
         top: 100%;
