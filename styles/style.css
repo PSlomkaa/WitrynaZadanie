@@ -7,12 +7,19 @@
     --projects-color: rgb(231, 231, 231);
 }
 
+.mobile-map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #hamburger-icon {
-    margin: 25px 10px;
+    margin: 25px 0px;
     display: none;
     cursor: pointer;
     position: absolute;
     right: 0%;
+    padding: 0 10px;
 }
 
 #hamburger-icon div {
@@ -47,12 +54,11 @@
 .mobile-menu {
     display: none;
     position: absolute;
-    top: 10%;
-    left: 0%;
-    height: 300px;
+    top: 40%;
+    right:550%;
+    height: 200px;
     padding: 0;
     width: 100%;
-    background: var(--bgc);
 }
 
 body {
@@ -664,6 +670,12 @@ h4 {
         display: flex;
         flex-direction: row;
     }
+    .mobile-menu {
+        right:50%;
+        background: var(--bgc);
+        width: 350px;
+        height: 300px;
+    }
     #hamburger-icon {
         display: block;
     }
@@ -813,6 +825,8 @@ h4 {
     .skill {
         background-color: var(--bgc);
         color: var(--main-color);
+        margin: 0;
+        max-width: 350px;
     }
     
     .h3-cont h3 {
@@ -869,6 +883,12 @@ h4 {
         color: #0903bb;
         -webkit-text-stroke: #0903bb 2px;
     }
+
+    .roadmap {
+        max-width: 350px;
+        margin: 0;
+    }
+
     .line-hor {
         background: var(--main-color);
         border: var(--main-color) solid 0px;
@@ -920,6 +940,11 @@ h4 {
         font-size: 20px;
         padding-right: 10px;
     }
+
+    .mobile-map {
+        display: flex;
+        flex-direction: column;
+    }
     .bug-outline {
         color: #03fc41;
         -webkit-text-stroke: #03fc41 2px;
@@ -947,7 +972,7 @@ h4 {
         padding: 15px;
         margin: 10px;
         font-size: 25px;
-        max-width: 400px;
+        max-width: 350px;
     }
     
     input:focus {
