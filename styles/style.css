@@ -890,6 +890,7 @@ h4 {
         justify-content: space-around;
         flex-wrap: wrap;
         margin:10px 30px;
+        margin: auto;
     }
     .skill-card {
         margin: 10px;
