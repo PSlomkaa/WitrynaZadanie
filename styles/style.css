@@ -161,6 +161,7 @@ main {
     overflow: hidden;
     white-space: nowrap;
     animation: typing 2.5s steps(100, end);
+    font-weight: bold;
 }
 
 .name {
@@ -680,7 +681,7 @@ h4 {
     padding-right: 5px;
 }
 
-@media only screen and (max-width: 480px) {
+@media only screen and (max-width: 480px) and (hover: none) {
     .logo {
         font-size: 30px;
         display: flex;
