@@ -3,7 +3,7 @@
 :root {
     --main-color: #000;
     --sec-text: rgb(84, 84, 84);
-    --bgc:#FAFBFE;
+    --bgc:#ffffff;
     --projects-color: rgb(231, 231, 231);
 }
 
@@ -135,7 +135,6 @@ li a {
 }
 
 main {
-    margin: 0 50px;
     padding: 50px 0;
     display: flex;
 }
@@ -554,7 +553,7 @@ td, tr, th {
     flex-basis: 50%;
     height: 500px;
     width: 600px;
-    aspect-ratio: 1.0;
+    aspect-ratio: 1.13;
 }
 
 .bug-outline {
