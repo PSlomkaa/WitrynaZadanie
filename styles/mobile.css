@@ -93,12 +93,6 @@
     }
     
     .info-cont img {
-        /* max-height: 300px;
-        max-width: 300px;
-        padding-bottom: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center; */
         display: none;
     }
     
@@ -224,8 +218,6 @@
         border-radius: 10px;
     }
     .s-img-cont img {
-        /* height: 300px;
-        width: 350px; */
         display: none;
     }
     .skill-card h4 {
